@@ -1,0 +1,13 @@
+body {
+    background-color: beige;
+}
+div {
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    background-color: darkolivegreen;
+    color: aliceblue;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
