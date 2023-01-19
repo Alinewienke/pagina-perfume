@@ -4,10 +4,25 @@ body {
 div {
     background-color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+h3 {
+    color: #73AD21;
 }
 button {
     background-color: darkolivegreen;
     color: aliceblue;
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    background: #73AD21;    
+    width: 120px;
+    height: 30px;
+}
+img {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
 }
