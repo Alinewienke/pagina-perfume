@@ -1,40 +1,90 @@
+* {
+    margin: 0;
+    margin: 0;
+}
+
 body {
     background-color: beige;
 }
-div {
+
+.container {
     background-color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
-    width: 600px;
-    height: 450px;    
+    width: 40%;
+    display: flex;
+    margin: auto;
 }
+
+.background {
+    height: 100vh;
+    display: flex;
+}
+
 h3 {
     color: #73AD21;
+    font-size: 35px;
 }
+
 h4 { 
     text-decoration-line: line-through;
+    color: gray;
+    font-weight: normal;
 }
+
 button {
     background-color: darkolivegreen;
     color: aliceblue;
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
-    background: #73AD21;
-    border-color: #73AD21;    
-    width: 120px;
-    height: 30px;
+    background: hsl(212, 21%, 14%); 
+    width: 100%;
+    padding: 15px;
 }
-img {
+
+.perfume-image {
+    background-image: url('./image-product-desktop.jpg');
     border-radius: 10px;
-    width: 600px;
-    height: 450px;
 }
-.container {
-    display:flex;
+
+.text {
+    margin-bottom: 15px;
 }
-div class {
-    flex-direction: row;
-    justify-content: center;
+
+.cart {
+    margin-right: 10px;
+}
+
+.price-container {
+    display: flex;
+    margin-bottom: 15px;
     align-items: center;
+    justify-content: space-between;
 }
+
+.text-container {
+    padding: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .text-container {
+        padding: 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 90%
+    }
+
+    .perfume-image {
+        height: 200px
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .perfume-image {
+        width: 150%;
+    }
+}
+
